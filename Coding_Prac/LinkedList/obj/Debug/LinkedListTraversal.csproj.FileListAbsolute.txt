@@ -1,0 +1,3 @@
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList\bin\Debug\LinkedList.exe.config
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList\obj\Debug\LinkedList.exe
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList\obj\Debug\LinkedList.pdb

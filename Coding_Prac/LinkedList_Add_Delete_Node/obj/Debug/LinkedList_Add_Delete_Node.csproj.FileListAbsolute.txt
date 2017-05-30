@@ -1,0 +1,6 @@
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList_Add_Delete_Node\bin\Debug\LinkedList_Add_Delete_Node.exe.config
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList_Add_Delete_Node\bin\Debug\LinkedList_Add_Delete_Node.exe
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList_Add_Delete_Node\bin\Debug\LinkedList_Add_Delete_Node.pdb
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList_Add_Delete_Node\obj\Debug\LinkedList_Add_Delete_Node.csprojResolveAssemblyReference.cache
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList_Add_Delete_Node\obj\Debug\LinkedList_Add_Delete_Node.exe
+C:\Projects\Repos\Coding-Practice\Coding_Prac\LinkedList_Add_Delete_Node\obj\Debug\LinkedList_Add_Delete_Node.pdb

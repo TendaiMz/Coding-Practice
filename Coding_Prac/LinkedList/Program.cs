@@ -29,7 +29,7 @@ namespace LinkedList
 
             Node test = new Node();
             test = nodeOne;
-            while (test !=null)
+            while (test!=null)
             {
                 Console.WriteLine(test.GetData());
                 test= test.GetNext();
