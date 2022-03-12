@@ -34,7 +34,7 @@ namespace RemoveDuplicatesFromUnsortedLinkedList
             node8.SetNext(node9);
             node9.SetData(7);
 
-            LnkdList linkedList = new LnkdList();
+            LinkedList linkedList = new LinkedList();
             linkedList.PrintNodes(nodeOne);
             Console.WriteLine(" Press any key to remove Duplicates");
             linkedList.RemoveDuplicates(nodeOne);
@@ -71,16 +71,16 @@ namespace RemoveDuplicatesFromUnsortedLinkedList
         }
     }
 
-    class LnkdList
+    class LinkedList
     {
         Node head;
         Hashtable hashTbl = new Hashtable();
-        public LnkdList(Node head)
+        public LinkedList(Node head)
         {
             this.head = head;
         }
 
-        public LnkdList()
+        public LinkedList()
         {
         }
 
