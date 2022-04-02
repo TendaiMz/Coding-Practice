@@ -7,10 +7,14 @@ namespace Trees
         static void Main(string[] args)
         {
             Console.WriteLine("Build a tree");
+            var tree = BuildTree();
+            tree.PrintValues();
+
         }
 
 
-        private void BuildTree(){
+        private static BinaryTree BuildTree()
+        {
             Node nodeOne = new Node(1);
             Node nodeTwo = new Node(2);
             Node nodeThree = new Node(3);
@@ -21,20 +25,20 @@ namespace Trees
             Node nodeEight = new Node(8);
             Node nodeNine = new Node(9);
 
-            nodeOne.LeftNode=nodeTwo;
-            nodeOne.RightNode=nodeThree;
+            nodeOne.LeftNode = nodeTwo;
+            nodeOne.RightNode = nodeThree;
 
-            nodeTwo.LeftNode=nodeFour;
-            nodeTwo.RightNode=nodeFive;
+            nodeTwo.LeftNode = nodeFour;
+            nodeTwo.RightNode = nodeFive;
 
-            nodeThree.LeftNode=nodeSix;
-            nodeThree.RightNode=nodeSeven;
+            nodeThree.LeftNode = nodeSix;
+            nodeThree.RightNode = nodeSeven;
 
-            nodeFour.LeftNode=nodeEight;
-            
-            nodeFive.RightNode=nodeNine
+            nodeFour.LeftNode = nodeEight;
 
+            nodeFive.RightNode = nodeNine;
 
+            return new BinaryTree(nodeOne);
 
         }
 

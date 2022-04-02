@@ -5,7 +5,7 @@ namespace Trees
     {
 
         public readonly int Data;
-        public void Node(int data)
+        public  Node(int data)
         {
             this.Data = data;
         }

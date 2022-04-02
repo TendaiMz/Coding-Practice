@@ -1,0 +1,16 @@
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.csproj.AssemblyReference.cache
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.GeneratedMSBuildEditorConfig.editorconfig
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.AssemblyInfoInputs.cache
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.AssemblyInfo.cs
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.csproj.CoreCompileInputs.cache
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/bin/Debug/net5.0/Trees
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/bin/Debug/net5.0/Trees.deps.json
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/bin/Debug/net5.0/Trees.runtimeconfig.json
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/bin/Debug/net5.0/Trees.runtimeconfig.dev.json
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/bin/Debug/net5.0/Trees.dll
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/bin/Debug/net5.0/ref/Trees.dll
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/bin/Debug/net5.0/Trees.pdb
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.dll
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/ref/Trees.dll
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.pdb
+/home/tendai/git/Coding-Practice/DataStructuresAndAlgorithms/Trees/obj/Debug/net5.0/Trees.genruntimeconfig.cache
