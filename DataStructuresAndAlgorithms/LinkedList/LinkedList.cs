@@ -12,7 +12,7 @@ namespace LinkedList
 
         public void PrintAllNodesValues()
         {
-            System.Console.WriteLine("Generating LinkedLits Values");
+            System.Console.WriteLine("Generating LinkedList Values");
             var node = this.Head;
             
             while (node!=null)
@@ -26,10 +26,16 @@ namespace LinkedList
 
          public void PrintAllValues(Node node)
         {
+            // StringBuilder str = new StringBuilder("");
+            // string st = new string();
+            
+
+
             if (node==null)
             {
                 return;
             }
+            
             System.Console.WriteLine($"The node value is {node.Data}"); 
             PrintAllValues(node.NextNode);   
 
