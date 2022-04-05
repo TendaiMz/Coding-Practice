@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 namespace Trees
 {
 
@@ -12,12 +13,18 @@ namespace Trees
             this.Root = root;
         }
 
-        public void PrintValues()
+        public void TraverseDepthFirst()
         {
-            PrintTreeValues(this.Root);
+            DepthFirstTravesal(this.Root);
         }
 
-        private void PrintTreeValues(Node node)
+        public void TraverseBreathFirst()
+        {
+            BreathFirstTravesal(this.Root);
+        }
+
+
+        private void DepthFirstTravesal(Node node)
         {
 
 
@@ -26,9 +33,34 @@ namespace Trees
                 return;
             }
 
-            Console.WriteLine(node.Data);
-            PrintTreeValues(node.LeftNode);
-            PrintTreeValues(node.RightNode);
+            Console.Write(node.Data);
+            DepthFirstTravesal(node.LeftNode);
+            DepthFirstTravesal(node.RightNode);
+        }
+
+        private void BreathFirstTravesal(Node node)
+        {
+            if (node == null) return;
+
+            var queue = new Queue<Node>();
+
+            queue.Enqueue(node);
+            while (queue.Count > 0)
+            {
+               var current = queue.Dequeue();              
+               Console.Write(current.Data);
+               
+
+               if(current.LeftNode!=null){
+                   queue.Enqueue(current.LeftNode);
+               }
+
+               if(current.RightNode!=null){
+                   queue.Enqueue(current.RightNode);
+               }
+
+            }
+
         }
 
 

@@ -6,9 +6,15 @@ namespace Trees
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Build a tree");
+
             var tree = BuildTree();
-            tree.PrintValues();
+            Console.WriteLine("Traverse tree");
+            Console.WriteLine("Depth First");
+            tree.TraverseDepthFirst();
+            Console.WriteLine(" ");
+            Console.WriteLine("Breath First");          
+            tree.TraverseBreathFirst();
+            Console.WriteLine(" ");
 
         }
 
